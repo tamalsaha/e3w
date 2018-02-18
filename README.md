@@ -14,6 +14,7 @@ docker run --rm -ti -v $(pwd)/conf/config.default.ini:/app/conf/config.default.i
 
 # open http://localhost:8080
 ```
+https://github.com/kubernetes/kubernetes/issues/44670
 
 Or use docker image by `docker pull soyking/e3w`, more details in `Dockerfile` and `docker-compose.yml`
 
