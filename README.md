@@ -10,7 +10,8 @@ supporting hierarchy on etcd v3, based on [e3ch](https://github.com/soyking/e3ch
 ```
 git clone https://github.com/soyking/e3w.git
 cd e3w
-docker-compose up
+docker run --rm -ti -v $(pwd)/conf/config.default.ini:/app/conf/config.default.ini --net=host soyking/e3w:latest
+
 # open http://localhost:8080
 ```
 
